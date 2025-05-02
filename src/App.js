@@ -47,8 +47,8 @@ function App() {
 
   const handleButtonClick = () => {
     alert('Hello from MCPuzzle React App!');
-  };
-
+  }; 
+ 
   return (
     <div style={styles.container}>
       <h1 style={styles.header}>MCPuzzle React App</h1>
