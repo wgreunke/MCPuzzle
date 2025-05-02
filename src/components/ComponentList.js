@@ -1,11 +1,15 @@
 import React, { useState } from 'react';
 import Test from './test';
+import NYTPuzzleGame from './NYTPuzzleGame';
+import Puzzle from './Puzzle';
 
 const ComponentList = () => {
   const [selectedComponent, setSelectedComponent] = useState(null);
 
   const components = [
-    { name: 'Test', component: <Test /> }
+    { name: 'Test', component: <Test /> },
+    { name: 'NYT Puzzle Game', component: <NYTPuzzleGame /> },
+    { name: 'Puzzle', component: <Puzzle /> }
   ];
 
   const styles = {
